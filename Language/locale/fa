@@ -1,0 +1,37 @@
+/* Persian LANGUAGE
+================================================== */
+if(typeof VMM != 'undefined') {
+VMM.Language = {
+lang: "fa",
+right_to_left: true,
+api: {
+wikipedia: "fa"
+},
+date: {
+month: ["ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن", "ژوییه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"],
+month_abbr: ["ژانویه", "فوریه", "مارس", "آوریل", "مه", "ژوئن", "ژوییه", "اوت", "سپتامبر", "اکتبر", "نوامبر", "دسامبر"],
+day: ["یکشنبه","دوشنبه", "سه شنبه", "چهارشنبه", "پنج شنبه", "جمعه", "شنبه"],
+day_abbr: ["یکشنبه","دوشنبه", "سه شنبه", "چهارشنبه", "پنج شنبه", "جمعه", "شنبه"]
+},
+dateformats: {
+year: "yyyy",
+month_short: "mmm",
+month: "mmmm yyyy",
+full_short: "mmm d",
+full: "mmmm d',' yyyy",
+time_no_seconds_short: "h:MM TT",
+time_no_seconds_small_date: "h:MM TT'<br/><small>'mmmm d',' yyyy'</small>'",
+full_long: "mmm d',' yyyy 'at' hh:MM TT",
+full_long_small_date: "hh:MM TT'<br/><small>mmm d',' yyyy'</small>'"
+},
+messages: {
+loading_timeline: "در حال بارگذاری نوار زمان... ",
+return_to_title: "بازگشت به عنوان",
+expand_timeline: "گسترش نوار زمان",
+contract_timeline: "نوار زمان",
+wikipedia: "ویکی پدیا",
+loading_content: "بارگذاری محتوا",
+loading: "بارگذاری"
+}
+}
+}
